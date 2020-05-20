@@ -1,40 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Project Test Suite" tests="7" assertions="5" errors="2" failures="2" skipped="0" time="0.001986">
-    <testsuite name="AverageTest2" file="/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/AverageTest.php" tests="4" assertions="4" errors="0" failures="1" skipped="0" time="0.001692">
-      <testcase name="testCalculationOfMean" class="AverageTest2" classname="AverageTest2" file="/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/AverageTest.php" line="15" assertions="1" time="0.001264"/>
-      <testcase name="testCalculationOfMedian" class="AverageTest2" classname="AverageTest2" file="/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/AverageTest.php" line="21" assertions="1" time="0.000032"/>
-      <testcase name="testCalculationOfMean2" class="AverageTest2" classname="AverageTest2" file="/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/AverageTest.php" line="27" assertions="1" time="0.000018"/>
-      <testcase name="testCalculationOfMedian2" class="AverageTest2" classname="AverageTest2" file="/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/AverageTest.php" line="33" assertions="1" time="0.000378">
-        <failure type="PHPUnit\Framework\ExpectationFailedException">AverageTest2::testCalculationOfMedian2
+  <testsuite name="" tests="7" assertions="5" errors="2" failures="2" skipped="0" time="0.002033">
+    <testsuite name="Project Test Suite1" tests="7" assertions="5" errors="2" failures="2" skipped="0" time="0.002033">
+      <testsuite name="AverageTest2" file="/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/AverageTest.php" tests="4" assertions="4" errors="0" failures="1" skipped="0" time="0.001729">
+        <testcase name="testCalculationOfMean" class="AverageTest2" classname="AverageTest2" file="/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/AverageTest.php" line="15" assertions="1" time="0.001285"/>
+        <testcase name="testCalculationOfMedian" class="AverageTest2" classname="AverageTest2" file="/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/AverageTest.php" line="21" assertions="1" time="0.000032"/>
+        <testcase name="testCalculationOfMean2" class="AverageTest2" classname="AverageTest2" file="/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/AverageTest.php" line="27" assertions="1" time="0.000017"/>
+        <testcase name="testCalculationOfMedian2" class="AverageTest2" classname="AverageTest2" file="/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/AverageTest.php" line="33" assertions="1" time="0.000395">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">AverageTest2::testCalculationOfMedian2
 Failed asserting that 6 matches expected 5.
-/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/AverageTest.php:36
+
+/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/AverageTest.php:36
 </failure>
-      </testcase>
-    </testsuite>
-    <testsuite name="EmailTest" file="/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/EmailTest.php" tests="3" assertions="1" errors="2" failures="1" skipped="0" time="0.000294">
-      <testcase name="testCanBeCreatedFromValidEmailAddress" class="EmailTest" classname="EmailTest" file="/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/EmailTest.php" line="6" assertions="0" time="0.000129">
-        <error type="Error">EmailTest::testCanBeCreatedFromValidEmailAddress
+        </testcase>
+      </testsuite>
+      <testsuite name="EmailTest" file="/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/EmailTest.php" tests="3" assertions="1" errors="2" failures="1" skipped="0" time="0.000303">
+        <testcase name="testCanBeCreatedFromValidEmailAddress" class="EmailTest" classname="EmailTest" file="/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/EmailTest.php" line="6" assertions="0" time="0.000132">
+          <error type="Error">EmailTest::testCanBeCreatedFromValidEmailAddress
 Error: Class 'Email' not found
 
-/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/EmailTest.php:10
+/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/EmailTest.php:10
 </error>
-      </testcase>
-      <testcase name="testCannotBeCreatedFromInvalidEmailAddress" class="EmailTest" classname="EmailTest" file="/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/EmailTest.php" line="14" assertions="1" time="0.000134">
-        <failure type="PHPUnit\Framework\ExpectationFailedException">EmailTest::testCannotBeCreatedFromInvalidEmailAddress
+        </testcase>
+        <testcase name="testCannotBeCreatedFromInvalidEmailAddress" class="EmailTest" classname="EmailTest" file="/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/EmailTest.php" line="14" assertions="1" time="0.000139">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">EmailTest::testCannotBeCreatedFromInvalidEmailAddress
 Failed asserting that exception of type "Error" matches expected exception "InvalidArgumentException". Message was: "Class 'Email' not found" at
-/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/EmailTest.php:18
+/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/EmailTest.php:18
 .
 
 </failure>
-      </testcase>
-      <testcase name="testCanBeUsedAsString" class="EmailTest" classname="EmailTest" file="/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/EmailTest.php" line="21" assertions="0" time="0.000031">
-        <error type="Error">EmailTest::testCanBeUsedAsString
+        </testcase>
+        <testcase name="testCanBeUsedAsString" class="EmailTest" classname="EmailTest" file="/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/EmailTest.php" line="21" assertions="0" time="0.000032">
+          <error type="Error">EmailTest::testCanBeUsedAsString
 Error: Class 'Email' not found
 
-/codebuild/output/src224453346/src/github.com/akritibhat/phptest/tests/EmailTest.php:25
+/codebuild/output/src264185197/src/github.com/akritibhat/phptest/tests/EmailTest.php:25
 </error>
-      </testcase>
+        </testcase>
+      </testsuite>
     </testsuite>
   </testsuite>
 </testsuites>
