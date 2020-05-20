@@ -14,6 +14,8 @@
     <testsuites>
         <testsuite name="Project Test Suite">
             <directory>tests</directory>
+        </testsuite>
+        <testsuite name="Project Test Suite2">
             <directory>tests2</directory>
         </testsuite>
     </testsuites>
