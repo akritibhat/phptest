@@ -36,4 +36,13 @@ class AverageTest2 extends TestCase
         $this->assertEquals(5, $this->Average->median($numbers));
     }
     
+    public class AverageTestInside extends TestCase
+    {
+
+        public function testCalculationOfMedian22()
+        {
+            $this->assertEquals(5, 5.5);
+        }
+    }
+    
 }
