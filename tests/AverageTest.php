@@ -28,6 +28,7 @@ class AverageTest2 extends TestCase
     {
         $numbers = [3, 7, 6, 1, 5];
         $this->assertEquals(4.4, $this->Average->mean($numbers));
+        $this->assertEquals(5, 5);
     }
 
     public function testCalculationOfMedian2()
