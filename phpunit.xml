@@ -12,7 +12,7 @@
     syntaxCheck                 = "false">
 
     <testsuites>
-        <testsuite name="Project Test Suite">
+        <testsuite name="Project Test Suite1">
             <directory>tests</directory>
         </testsuite>
         <testsuite name="Project Test Suite2">
