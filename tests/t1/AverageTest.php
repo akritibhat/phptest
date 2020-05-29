@@ -3,11 +3,11 @@
 use PHPUnit\Framework\TestCase;
 use drmonkeyninja\Average;
 
-class AverageTest2 extends TestCase
+class AverageTest extends TestCase
 {
     protected $Average;
 
-    public function setUp()
+    public function :void setUp()
     {
         $this->Average = new drmonkeyninja\Average();
     }
