@@ -9,7 +9,7 @@ class AverageTest2 extends TestCase
 
     public function setUp()
     {
-        $this->Average = new Average();
+        $this->Average = new drmonkeyninja\Average();
     }
 
     public function testCalculationOfMean()
