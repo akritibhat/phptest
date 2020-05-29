@@ -8,10 +8,10 @@
 
     <testsuites>
          <testsuite name="Project Test Suite21">
-            <directory>tests</directory>
+            <directory>tests/t1</directory>
          </testsuite>    
          <testsuite name="Project Test Suite12">
-            <directory>tests</directory>
+            <directory>tests/t2</directory>
         </testsuite>    
     </testsuites>
 
