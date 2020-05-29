@@ -7,9 +7,12 @@
 >
 
     <testsuites>
-         <testsuite name="Project Test Suite2">
-            <directory>tests2</directory>
+         <testsuite name="Project Test Suite21">
+            <directory>tests</directory>
          </testsuite>    
+         <testsuite name="Project Test Suite12">
+            <directory>tests</directory>
+        </testsuite>    
     </testsuites>
 
     <filter>
