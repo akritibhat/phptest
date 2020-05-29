@@ -7,7 +7,7 @@ class AverageTest extends TestCase
 {
     protected $Average;
 
-    public function :void setUp()
+    public function setUp(): void
     {
         $this->Average = new drmonkeyninja\Average();
     }
