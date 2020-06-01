@@ -1,16 +1,9 @@
 <?php
 
-use drmonkeyninja\Average;
 use PHPUnit\Framework\TestCase;
 
 class AverageTest2 extends TestCase
 {
-    protected $Average2;
-
-    public function setUp()
-    {
-        $this->Average2 = new Average();
-    }
 
     public function testCalculationOfMean2()
     {
