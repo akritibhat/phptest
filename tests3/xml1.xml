@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="12" assertions="15" errors="0" warnings="0" failures="0" skipped="1" time="0.044406">
+    <testsuite name="Test Suite" tests="12" assertions="15" errors="0" warnings="0" failures="0" skipped="1" time="0.044406">
+      <testsuite name="Library\Resource\JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" tests="12" assertions="15" errors="0" warnings="0" failures="0" skipped="1" time="0.044406">
+        <testcase name="test_it_should_set_link" class="Library\Resource\JsonResourceTest" classname="Library.Resource.JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" line="11" assertions="1" time="0.024611"/>
+        <testcase name="test_it_should_add_links" class="Library\Resource\JsonResourceTest" classname="Library.Resource.JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" line="30" assertions="1" time="0.002012"/>
+        <testcase name="test_it_should_get_href" class="Library\Resource\JsonResourceTest" classname="Library.Resource.JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" line="51" assertions="4" time="0.001916"/>
+        <testcase name="test_it_should_set_a_parameter" class="Library\Resource\JsonResourceTest" classname="Library.Resource.JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" line="64" assertions="1" time="0.001458"/>
+        <testcase name="test_it_should_set_embedded_resource" class="Library\Resource\JsonResourceTest" classname="Library.Resource.JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" line="79" assertions="1" time="0.001033"/>
+        <testcase name="test_it_should_set_multiple_embedded_resources" class="Library\Resource\JsonResourceTest" classname="Library.Resource.JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" line="99" assertions="1" time="0.000851"/>
+        <testcase name="test_it_should_add_embedded_resource" class="Library\Resource\JsonResourceTest" classname="Library.Resource.JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" line="124" assertions="1" time="0.001873"/>
+        <testcase name="test_it_should_add_multiple_resources_at_once" class="Library\Resource\JsonResourceTest" classname="Library.Resource.JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" line="143" assertions="1" time="0.001443"/>
+        <testcase name="test_it_should_append_when_adding_with_the_same_relation" class="Library\Resource\JsonResourceTest" classname="Library.Resource.JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" line="169" assertions="1" time="0.000636"/>
+        <testcase name="test_it_should_transform_the_resource" class="Library\Resource\JsonResourceTest" classname="Library.Resource.JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" line="190" assertions="1" time="0.000573"/>
+        <testcase name="test_it_should_not_allow_reserved_keywords" class="Library\Resource\JsonResourceTest" classname="Library.Resource.JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" line="218" assertions="2" time="0.000830"/>
+        <testcase name="test_it_should_only_allow_string_uri" class="Library\Resource\JsonResourceTest" classname="Library.Resource.JsonResourceTest" file="/var/library/resource/tests/JsonResourceTest.php" line="233" assertions="0" time="0.007170">
+          <skipped/>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
