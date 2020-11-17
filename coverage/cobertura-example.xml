@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<coverage branch-rate="0.375" branches-covered="6" branches-valid="16" complexity="0" line-rate="0.7857" lines-covered="66" lines-valid="84" timestamp="1591066845999" version="5.1">
+    <sources>
+        <source>/.../TestRepos/PythonCoverage</source>
+    </sources>
+    <packages>
+        <package branch-rate="0.25" complexity="0" line-rate="0.7385" name="src">
+            <classes>
+                <class branch-rate="0.3333" complexity="0" filename="src/Sum.py" line-rate="0.75" name="Sum.py">
+                    <methods/>
+                    <lines>
+                        <line hits="1" number="1"/>
+                        <line hits="1" number="2"/>
+                        <line hits="1" number="3"/>
+                        <line hits="1" number="5"/>
+                        <line branch="true" condition-coverage="50% (1/2)" hits="1" missing-branches="9" number="6"/>
+                        <line hits="1" number="7"/>
+                        <line hits="0" number="9"/>
+                        <line hits="1" number="11"/>
+                        <line hits="1" number="12"/>
+                        <line hits="1" number="13"/>
+                        <line hits="1" number="14"/>
+                        <line hits="1" number="16"/>
+                        <line branch="true" condition-coverage="50% (1/2)" hits="1" missing-branches="20" number="17"/>
+                        <line hits="1" number="18"/>
+                        <line hits="0" number="20"/>
+                        <line hits="1" number="22"/>
+                        <line hits="1" number="23"/>
+                        <line hits="0" number="24"/>
+                        <line hits="0" number="25"/>
+                        <line hits="1" number="27"/>
+                        <line branch="true" condition-coverage="0% (0/2)" hits="0" missing-branches="29,31" number="28"/>
+                        <line hits="0" number="29"/>
+                        <line hits="0" number="31"/>
+                        <line hits="1" number="33"/>
+                        <line hits="1" number="34"/>
+                        <line hits="1" number="35"/>
+                        <line hits="1" number="36"/>
+                        <line hits="1" number="37"/>
+                    </lines>
+                </class>
+                <class branch-rate="0.5" complexity="0" filename="src/main.py" line-rate="1" name="main.py">
+                    <methods/>
+                    <lines>
+                        <line hits="1" number="1"/>
+                        <line hits="1" number="2"/>
+                        <line hits="1" number="3"/>
+                        <line hits="1" number="4"/>
+                        <line hits="1" number="8"/>
+                        <line hits="1" number="9"/>
+                        <line hits="1" number="10"/>
+                        <line hits="1" number="11"/>
+                        <line hits="1" number="13"/>
+                        <line hits="1" number="14"/>
+                        <line hits="1" number="15"/>
+                        <line hits="1" number="17"/>
+                        <line hits="1" number="18"/>
+                        <line hits="1" number="19"/>
+                        <line hits="1" number="20"/>
+                        <line hits="1" number="22"/>
+                        <line hits="1" number="23"/>
+                        <line branch="true" condition-coverage="50% (1/2)" hits="1" missing-branches="exit" number="25"/>
+                        <line hits="1" number="26"/>
+                    </lines>
+                </class>
+                <class branch-rate="0" complexity="0" filename="src/sum_test.py" line-rate="0.4444" name="sum_test.py">
+                    <methods/>
+                    <lines>
+                        <line hits="1" number="1"/>
+                        <line hits="1" number="2"/>
+                        <line hits="1" number="3"/>
+                        <line hits="1" number="5"/>
+                        <line hits="0" number="6"/>
+                        <line hits="0" number="7"/>
+                        <line hits="1" number="9"/>
+                        <line branch="true" condition-coverage="0% (0/2)" hits="0" missing-branches="11,13" number="10"/>
+                        <line hits="0" number="11"/>
+                        <line hits="0" number="13"/>
+                        <line hits="1" number="15"/>
+                        <line hits="1" number="16"/>
+                        <line hits="0" number="17"/>
+                        <line hits="0" number="18"/>
+                        <line hits="1" number="20"/>
+                        <line branch="true" condition-coverage="0% (0/2)" hits="0" missing-branches="22,24" number="21"/>
+                        <line hits="0" number="22"/>
+                        <line hits="0" number="24"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+        <package branch-rate="0.75" complexity="0" line-rate="0.9474" name="src.dir">
+            <classes>
+                <class branch-rate="1" complexity="0" filename="src/dir/__init__.py" line-rate="1" name="__init__.py">Test-coberturareport.xml
+                    <methods/>
+                    <lines/>
+                </class>
+                <class branch-rate="0.75" complexity="0" filename="src/dir/dir_sum.py" line-rate="0.9474" name="dir_sum.py">
+                    <methods/>
+                    <lines>
+                        <line hits="1" number="1"/>
+                        <line hits="1" number="2"/>
+                        <line hits="1" number="3"/>
+                        <line hits="1" number="5"/>
+                        <line branch="true" condition-coverage="100% (2/2)" hits="1" number="6"/>
+                        <line hits="1" number="7"/>
+                        <line hits="1" number="9"/>
+                        <line hits="1" number="11"/>
+                        <line hits="1" number="12"/>
+                        <line hits="1" number="13"/>
+                        <line hits="1" number="14"/>
+                        <line hits="1" number="16"/>
+                        <line branch="true" condition-coverage="50% (1/2)" hits="1" missing-branches="20" number="17"/>
+                        <line hits="1" number="18"/>
+                        <line hits="0" number="20"/>
+                        <line hits="1" number="23"/>
+                        <line hits="1" number="24"/>
+                        <line hits="1" number="25"/>
+                        <line hits="1" number="26"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+    </packages>
+</coverage>
